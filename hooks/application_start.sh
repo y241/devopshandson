@@ -11,4 +11,4 @@ app_error_log="/var/log/app/error.log"
 #   -e "$app_error_log" \
 #   "$app_path"
 
-forever start "$app_path"
+forever restart /usr/src/app/index.js
