@@ -7,7 +7,7 @@ describe('index', function () {
     request(index)
     .get('/')
     .end(function(err, res){
-      res.text.should.equal('Hello World Handson !!');
+      res.text.should.equal('Hello DevOps Handson !!');
       done();
     });
   });
